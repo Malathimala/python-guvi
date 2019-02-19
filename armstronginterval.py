@@ -1,3 +1,4 @@
+# malaishu001
 x,y=map(int,raw_input().split())
 for i in range(x,y):
     num=i
