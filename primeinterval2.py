@@ -7,3 +7,4 @@ for num in range(x+1,y):
                 break
         else:
             print num,
+# primeinterval.com
