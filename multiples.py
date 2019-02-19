@@ -1,4 +1,4 @@
-# mini12345
+# mini123456
 x=int(raw_input())
 for i in range(1,6):
     c=i*x
