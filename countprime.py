@@ -17,6 +17,6 @@ def buildprefix():
             prefix[p]+=1
 def query(L,R):
     return prefix[R]-prefix[L-1]
-if__name__=='__main__':
+if __name__=='__main__':
     buildprefix()
     print(query(L,R))
