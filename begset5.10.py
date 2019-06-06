@@ -1,7 +1,6 @@
 # malathi
-a=int(input())
-b=(a^2)
-if(b%2==0):
-	print("yes")
+n=int(input())
+if n &(n-1)==0:
+  print("yes")
 else:
-	print("no")
+  print("no")
