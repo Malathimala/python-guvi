@@ -1,16 +1,20 @@
 # malathi
-import sys, string, math
+n,q=map(int,input().split())
 
-np,kp = input().split()
+m=list(map(int,input().split()))
 
-np,kp = int(np), int(kp)
+s=[]
 
-Li = [ int(x) for x in input().split()]
+for i in range(q):
 
-for i in range(0,kp) :
+    s.append(list(map(int,input().split())))
 
-    u,v = input().split()
+for i in s:
 
-    u,v = int(u), int(v)
+  su=0
 
-    print(sum(Li[u-1:v]))
+  for j in range(i[0]-1,i[1]):
+
+      su=su+m[j]
+
+  print(su)    
