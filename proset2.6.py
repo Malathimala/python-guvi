@@ -1,7 +1,4 @@
 # malathi
-   
-
-#dineshkumar
 
 import sys, string, math
 
